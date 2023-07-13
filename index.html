@@ -31,12 +31,12 @@
     <link rel="stylesheet" type="text/css" href="./css/color/green.css">
 
     <!-- Colors CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/color/green.css" title="green">
-    <link rel="stylesheet" type="text/css" href="./css/color/light-red.css" title="light-red">
-    <link rel="stylesheet" type="text/css" href="./css/color/blue.css" title="blug">
-    <link rel="stylesheet" type="text/css" href="./css/color/light-blue.css" title="light-blue">
-    <link rel="stylesheet" type="text/css" href="./css/color/yellow.css" title="yellow">
-    <link rel="stylesheet" type="text/css" href="./css/color/light-green.css" title="light-green">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/color/green.css" title="green"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./css/color/light-red.css" title="light-red"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./css/color/blue.css" title="blug"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./css/color/light-blue.css" title="light-blue"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./css/color/yellow.css" title="yellow"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./css/color/light-green.css" title="light-green"> -->
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Kaushan+Script" type="text/css">
@@ -52,12 +52,26 @@
 
 </head>
 <body class="index">
+
+    <!-- Start Page Loader 
+==================================================== -->
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+
+    <!-- End Page Loader 
+==================================================== -->
     
     <!-- Styleswitcher
 ==================================================== -->
 
  <!-- End Styleswitcher
 ==================================================== -->
+
+
 
 <!-- Nvigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -80,8 +94,10 @@
                 <li class="page-scroll"><a href="#feature">Feature</a></li>
                 <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
                 <li class="page-scroll"><a href="#about-us">About</a></li>
-                <li class="page-scroll"><a href="#service">Service</a></li>
+                <li class="page-scroll"><a href="#services">Services</a></li>
                 <li class="page-scroll"><a href="#team">Team</a></li>
+                <li class="page-scroll"><a href="#pricing">Pricing</a></li>
+                <li class="page-scroll"><a href="#latest-news">Latest News</a></li>
                 <li class="page-scroll"><a href="#testimonial">Testimonials</a></li>
                 <li class="page-scroll"><a href="#partner">Partner</a></li>
                 <li class="page-scroll"><a href="#contact">Contact</a></li>
@@ -91,6 +107,84 @@
     </div>
     <!-- / .container-fluid -->
 </nav>
+
+
+<!-- Start Home Page Slider -->
+<section class="page-top">
+    <!-- Carousel -->
+    <div class="carousel slide" id="main-slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+            <li data-target="#main-slide" data-slide-to="1"></li>
+            <li data-target="#main-slide" data-slide-to="2"></li>
+        </ol>
+        <!-- End Indicators -->
+
+
+        <!-- carousel Inner -->
+        <div class="carousel-inner">
+            <!-- carousel Item -->
+            <div class="item active">
+                <img class="img-responsive" src="./images/header-bg-1.jpg" alt="header">
+                <div class="slider-content">
+                    <div class="col-md-12 text-center">
+                        <h1 class="animated3">
+                            <span><strong>Fame</strong> for them highest</span>
+                        </h1>
+                        <p class="animated2">At vero eos et accusamus et iusto odio dignissimos<br> ducimus qui blanditiis praesentium voluptatum</p>
+                        <a href="#feature" class="page-scroll btn btn-primary animated1">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End carousel Item -->
+
+            <!-- carousel Item -->
+            <div class="item">
+                <img class="img-responsive" src="./images/header-back.png" alt="header">
+                <div class="slider-content">
+                    <div class="col-md-12 text-center">
+                        <h1 class="animated1">
+                            <span>Welcome to <strong>Fame</strong></span>
+                        </h1>
+                        <p class="animated2">Generate a flood of new business with the<br> power of a digital media platform</p>
+                        <a href="#feature" class="page-scroll btn btn-primary animated3">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End carousel Item -->
+
+            <!-- carousel Item -->
+            <div class="item">
+                <img class="img-responsive" src="./images/galaxy.jpg" alt="header">
+                <div class="slider-content">
+                    <div class="col-md-12 text-center">
+                        <h1 class="animated2">
+                            <span>The way of <strong>Success</strong></span>
+                        </h1>
+                        <p class="animated1">At vero eos et accusamus et iusto odio dignissimos<br> ducimus qui blanditiis praesentium voluptatum</p>
+                        <a class="animated3 slider btn btn-primary btn-min-block" href="#">Get Now</a><a class="animated3 slider btn btn-default btn-min-block" href="#">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End carousel Item -->
+        </div>
+        <!-- end carousel Inner -->
+
+        <!-- Controls -->
+        <a href="#main-slide" class="left carousel-control" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+        </a>
+        <a href="#main-slide" class="right carousel-control" data-slide="next">
+           <span> <i class="fa fa-angle-right"></i></span>
+        </a>
+        <!-- End Controls -->
+    </div>
+</section>
+<!-- End Home Page Slider -->
+
+
 
 
 

@@ -64,3 +64,30 @@
 .portfolio-item:hover .portfolio-caption{
     background-color: #5BB12F;
 }
+
+
+/* About Section wellcome-section h4 tag hover color */
+.welcome-section:hover h4{
+    color: #5BB12F;
+}
+
+
+/* About Section wellcome-section border hover color */
+.welcome-section:hover .border{
+    border-color: #5BB12F;
+}
+
+
+/* progress bar background color */
+
+.progress-bar{
+    background-color: #5BB12F;
+}
+
+.about-us-section-2 .carousel-indicators li{
+    border: 2px solid #5BB12F !important;
+}
+
+.about-us-section-2 .carousel-indicators .active{
+   background-color: #5BB12F;
+}

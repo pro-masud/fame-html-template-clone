@@ -18,6 +18,18 @@
     color: #5BB12F;
 }
 
+/* active navbar background color */
+
+.navbar-default .navbar-nav > .active > a{
+    border-radius: 5px;
+    background-color: #5BB12F;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #5BB12F;
+}
+
 /* Home Slider h1 tag Color */
 #main-slide .slider-content h1 strong{
     color: #5BB12F;
@@ -45,4 +57,10 @@
 .no-touch .feature:focus i{
     box-shadow: 0 0 0 0 #5BB12F;
     transition: box-shadow .4s ease-in-out;
+}
+
+
+/* portfolio section item hover background color */
+.portfolio-item:hover .portfolio-caption{
+    background-color: #5BB12F;
 }

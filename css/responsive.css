@@ -31,6 +31,11 @@ and (max-width : 767px){
     .feature {
         margin-bottom: 50px;
     }
+
+    .portfolio-item img{
+        display: inline;
+        width: 100%;
+    }
 }
 
 
@@ -40,6 +45,9 @@ and (min-width : 321px)
 and (max-width : 480px){
     .feature {
         margin-bottom: 40px;
+    }
+    .portfolio-item img{
+        display: inline;
     }
 }
 

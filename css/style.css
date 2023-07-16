@@ -520,3 +520,64 @@ li{
         height: 180px;
     }
 }
+
+
+/* ----------------------------------- */
+
+/* Start Feature Section               */
+
+/* ----------------------------------- */
+.feature-section{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
+.feature {
+    text-align: center;
+}
+
+.feature i{
+    font-size: 32px;
+    width: 80px;
+    height: 80px;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.feature i{
+    color: #fff;
+    box-shadow: 0 0 0 30px transparent;
+    -webkit-transform: translate3d(2, 2, 2);
+    -moz-transform: translate3d(2, 2, 2);
+    -o-transform: translate3d(2, 2, 2);
+    transform: translate3d(2, 2, 2);
+    -webkit-transition: box-shadow .6s ease-in-out;
+    -moz-transition: box-shadow .6s ease-in-out;
+    -o-transition: box-shadow .6s ease-in-out;
+    transition: box-shadow .6s ease-in-out;
+}
+
+.no-touch .feature:hover i,
+.no-touch .feature:active i,
+.no-touch .feature:focus i {
+
+    -webkit-transition: box-shadow .4s ease-in-out;
+    -moz-transition: box-shadow .4s ease-in-out;
+    -o-transition: box-shadow .4s ease-in-out;
+    transition: box-shadow .4s ease-in-out;
+}
+
+.feature .feature-content h4{
+    font: 15px;
+    color: #666;
+    font-weight: 300;
+    font-family: 'oswald', sans-serif;
+}
+
+.feature .feature-content p{
+    color: #444;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}

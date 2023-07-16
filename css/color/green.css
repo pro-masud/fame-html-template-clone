@@ -27,3 +27,18 @@
     border-color: #5BB12F;
     background-color: #5BB12F;
 }
+
+
+/* feature icon background color */
+
+.feature i{
+    background:#5BB12F ;
+}
+
+/* feature icon box-shado bg color */
+.no-touch .feature:hover i, 
+.no-touch .feature:active i, 
+.no-touch .feature:focus i{
+    box-shadow: 0 0 0 0 #5BB12F;
+    transition: box-shadow .4s ease-in-out;
+}

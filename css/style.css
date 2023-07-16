@@ -581,3 +581,39 @@ li{
     line-height: 20px;
     font-weight: 300;
 }
+
+
+
+
+
+/* ----------------------------------- */
+
+/* Start Call To Active Section        */
+
+/* ----------------------------------- */
+
+
+.call-to-action{
+    background: url(../images/parallax/call-to.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: 50% 90%;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.call-to-action h1{
+    font-weight: 300;
+    line-height: 50px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.call-to-action .btn-primary{
+    padding: 20px;
+    font-size: 16px;
+}
+.call-to-action .btn-primary:hover{
+    background: transparent;
+}

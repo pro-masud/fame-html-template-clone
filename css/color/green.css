@@ -28,6 +28,10 @@
     background-color: #5BB12F;
 }
 
+.btn-primary:hover{
+    border-color: #5BB12F;
+}
+
 
 /* feature icon background color */
 

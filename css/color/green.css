@@ -107,3 +107,15 @@
 .feature-2 .border{
     border-color: #5BB12F;
 }
+
+
+
+/* fun-facts section i and number color here */
+
+.counter-item i{
+    color:#5BB12F;
+}
+
+.counter-item .timer{
+    color:#5BB12F;
+}

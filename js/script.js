@@ -48,4 +48,13 @@ $(document).ready(function($) {
 
         
     });
+
+
+// Counter adding 
+
+$('.timer').countTo();
+
+$('.counter-item').appear(function() {
+    $('.timer').countTo();
+},{accY: -100});
 	

@@ -91,3 +91,19 @@
 .about-us-section-2 .carousel-indicators .active{
    background-color: #5BB12F;
 }
+
+
+/* service section i tag background color */
+.feature-2 .media .pull-left i{
+    background-color: #5BB12F;
+}
+
+.feature-2:hover .media .pull-left i{
+    background-color: transparent;
+    border: 1px solid #5BB12F;
+    color: #5BB12F;
+}
+
+.feature-2 .border{
+    border-color: #5BB12F;
+}

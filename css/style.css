@@ -41,6 +41,7 @@ a:focus,
 a:active,
 a.active{
     outline: 0;
+    text-decoration: none;
 }
 
 
@@ -63,7 +64,7 @@ li{
 }
 
 .white-text{
-    color: #fff;
+    color: #fff !important;
 }
 
 .section-title h3{
@@ -1137,4 +1138,77 @@ li{
 
 .owl-controls {
     margin-top: 35px !important;
+}
+
+
+/* Start Pricing Plan section */
+
+.pricing-section {
+    padding: 80px;
+    background: url(../images/parallax/pricing-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.pricing-section .section-title h3{
+    color: #fff;
+}
+
+.pricing-table{
+    text-align: center;
+    background: #fff;
+}
+
+.plan-name {
+    padding: 15px 0;
+}
+
+.plan-name h3 {
+    font-weight: 300;
+    color: #fff;
+}
+
+.plan-price {
+    padding: 25px 0;
+}
+
+.plan-price .price-value {
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #444; 
+}
+
+.plan-price .price-value span {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.plan-price .interval {
+    line-height: 14px;
+}
+
+.plan-list li {
+    padding: 13px;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.plan-list li:first-child {
+    border-top: 1px solid #eee;
+}
+
+.plan-signup {
+    padding: 25px 0;
+}
+
+.plan-signup a{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.plan-signup a:hover {
+    color: #ea321e;
 }

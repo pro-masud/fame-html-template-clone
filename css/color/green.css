@@ -128,13 +128,25 @@
 }
 
 
-.our-team .owl-controls .owl-page.active{
+.owl-controls .owl-page.active{
     background: #5BB12F !important;
     border-radius: 3px !important;
     padding: 2px !important;
    
 }
 
-.our-team .owl-controls .active > span{
+.owl-controls .active > span{
     background: #fff !important;
+}
+
+
+
+/* Pricing Table styling */
+
+.plan-name{
+    background-color: #5BB12F;
+}
+
+.plan-signup{
+    background-color: #5BB12F;
 }

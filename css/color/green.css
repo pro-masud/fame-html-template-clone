@@ -1,5 +1,3 @@
-/* basic styling here now */
-
 /* owlCarousel controls color */
 
 .owl-controls .owl-page.active{
@@ -170,16 +168,23 @@
 
 /* Testimonial Section style */
 
-.testimonials .testimonial-content img{
+.testimonial-section .testimonials .testimonial-content img{
     border: 3px solid #5BB12F;
 }
 
-.testimonials .testimonial-author .author{
+.testimonial-section .testimonials .testimonial-author .author{
     color:#5BB12F;
 }
 
-.owl-theme .owl-controls .owl-buttons .owl-prev,
-.owl-theme .owl-controls .owl-buttons .owl-next{
+.testimonial-section .owl-theme .owl-controls .owl-buttons .owl-prev,
+.testimonial-section .owl-theme .owl-controls .owl-buttons .owl-next{
     color:#5BB12F;
 }
 
+
+/* Clients and patnar styling */
+
+#partner .owl-theme .owl-controls .owl-buttons .owl-prev,
+#partner .owl-theme .owl-controls .owl-buttons .owl-next{
+    background: #5BB12F;
+}

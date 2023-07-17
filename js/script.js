@@ -136,3 +136,24 @@ testimonial.owlCarousel({
 	transitionStyle : "fade",
 	navigationText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
 });
+
+
+// Partner and Clients
+
+$(document).ready(function() {
+ 
+    $(".clients").owlCarousel({
+          pagination: false,
+          navigation : true,
+          slideSpeed : 2500,
+          stopOnHover: true,
+          autoPlay: 3000,
+          singleItem:false,
+          itemsMobile : [550,1],
+          itemsDesktopSmall : [991,2],
+          items: 5,
+          transitionStyle : "fade",
+          navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>']
+    });
+   
+  });

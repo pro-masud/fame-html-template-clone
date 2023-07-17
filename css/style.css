@@ -1325,21 +1325,43 @@ li{
     color: #d3d3d3;
 }
 
-.testimonials-carousel .owl-controls.clickable .owl-buttons div {
+.testimonial-section .testimonials-carousel .owl-controls.clickable .owl-buttons div {
     background: none;
     font-size: 40px;
 }
 
-.owl-theme .owl-controls .owl-buttons .owl-prev{
+.testimonial-section .owl-theme .owl-controls .owl-buttons .owl-prev{
     position: absolute;
     left: 0;
     top: 50%;
     z-index: 10000;
 }
 
-.owl-theme .owl-controls .owl-buttons .owl-next{
+.testimonial-section .owl-theme .owl-controls .owl-buttons .owl-next{
     position: absolute;
     right: 0;
     top: 50%;
     z-index: 10000;
+}
+
+
+/* ----------------------------------- */
+
+/* Start Clients Section               */
+
+/* ----------------------------------- */
+
+#partner{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center !important;
+}
+
+.clients .owl-buttons {
+    padding-top: 50px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    opacity: 1;
+    filter: Alpha(Opacity=100);
 }

@@ -1,3 +1,19 @@
+/* basic styling here now */
+
+/* owlCarousel controls color */
+
+.owl-controls .owl-page.active{
+    background: #5BB12F !important;
+    border-radius: 3px !important;
+    padding: 2px !important;
+   
+}
+
+.owl-controls .active > span{
+    background: #fff !important;
+}
+
+
 /* leader dot background color */
 .dot1,
 .dot2{
@@ -128,16 +144,6 @@
 }
 
 
-.owl-controls .owl-page.active{
-    background: #5BB12F !important;
-    border-radius: 3px !important;
-    padding: 2px !important;
-   
-}
-
-.owl-controls .active > span{
-    background: #fff !important;
-}
 
 
 
@@ -148,5 +154,15 @@
 }
 
 .plan-signup{
+    background-color: #5BB12F;
+}
+
+/* latest news post */
+
+.latest-post h4 a{
+    color: #5BB12F;
+}
+
+.latest-post .post-details .date{
     background-color: #5BB12F;
 }

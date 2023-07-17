@@ -1212,3 +1212,71 @@ li{
 .plan-signup a:hover {
     color: #ea321e;
 }
+
+
+/* Start Latest News Section */
+
+.latest-news-section{
+    padding-top: 80px;
+    padding-bottom: 60px
+}
+
+.latest-post {
+    padding-bottom: 20px;
+}
+
+.latest-post h4 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.latest-post h4:hover a{
+    color: #ea321e;
+}
+
+.latest-post .post-details .date {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 1;
+}
+
+.latest-post:hover .date {
+    opacity: 1;
+    -webkit-animation: bounceIn;
+    -moz-animation: bounceIn;
+    -o-animation: bounceIn;
+    animation: bounceIn;
+    -webkit-animation-duration: 0.7s;
+    -moz-animation-duration: 0.7s;
+    -o-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+}
+
+.latest-post .post-details .date strong{
+    font-size: 16px;
+}
+
+.latest-post p{
+    padding-bottom: 15px;
+    color: #999;
+    font-weight: 300;
+}
+
+.latest-post .btn-primary{
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    font-weight: 300;
+}
+
+.latest-post .btn-primary:hover {
+    background: none;
+    color: #666;
+    border: 1px solid #888;
+    box-shadow: none;
+}

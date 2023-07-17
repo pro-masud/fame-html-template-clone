@@ -97,3 +97,24 @@ $(document).ready(function(){
 		navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>']
   });
 });
+
+
+
+
+// Latest News Post 
+
+$(document).ready(function(){
+    // get our-team class
+    $(".latest-news").owlCarousel({
+        pagination: true,
+        slideSpeed : 2500,
+		stopOnHover: true,
+    	autoPlay: 3000,
+        items: 3,
+    	//singleItem:true,
+        itemsMobile : [550,1],
+        itemsDesktopSmall : [991,2],
+		transitionStyle : "fade",
+		navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>']
+  });
+});

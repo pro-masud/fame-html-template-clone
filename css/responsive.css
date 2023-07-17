@@ -18,6 +18,10 @@ and (max-width : 991px){
     .feature {
         margin-bottom: 80px;
     }
+
+    footer.style-1 .copyright{
+        margin-bottom: 8px;
+    }
 }
 
 
@@ -36,6 +40,31 @@ and (max-width : 767px){
         display: inline;
         width: 100%;
     }
+
+    footer.style-1 .copyright{
+        margin-bottom: 15px;
+    }
+
+    footer.style-1 .footer-social {
+        margin-top: 20px;
+    }
+
+    footer.style-1 .footer-link{
+        margin-top: 15px;
+    }
+
+    .copyright{
+        margin-top: 20px;
+    }
+
+    .footer-social{
+        margin-top: 20px;
+    }
+
+    .footer-link ul{
+        float: left !important;
+        margin-top: 20px;
+    }
 }
 
 
@@ -48,6 +77,24 @@ and (max-width : 480px){
     }
     .portfolio-item img{
         display: inline;
+    }
+
+    .footer-link ul{
+        float: left !important;
+        margin-top: 15px;
+    }
+
+    .copyright{
+        margin-top: 20px;
+    }
+
+    .footer-social{
+        margin-top: 20px;
+    }
+
+    .footer-link ul{
+        float: left !important;
+        margin-top: 20px;
     }
 }
 

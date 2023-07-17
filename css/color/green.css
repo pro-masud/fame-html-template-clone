@@ -188,3 +188,29 @@
 #partner .owl-theme .owl-controls .owl-buttons .owl-next{
     background: #5BB12F;
 }
+
+
+/* contact us section background color */
+.footer-contact-info{
+    background: #5BB12F;
+}
+
+
+/* footer border color */
+
+.style-1{
+    border-top: 2px solid #5BB12F;
+}
+
+.copyright a{
+    color:#5BB12F;
+}
+
+footer.style-1 .footer-social li a{
+    background-color: #5BB12F;
+}
+
+.pull-right a{
+    color: #5BB12F;
+}
+

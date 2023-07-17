@@ -166,3 +166,20 @@
 .latest-post .post-details .date{
     background-color: #5BB12F;
 }
+
+
+/* Testimonial Section style */
+
+.testimonials .testimonial-content img{
+    border: 3px solid #5BB12F;
+}
+
+.testimonials .testimonial-author .author{
+    color:#5BB12F;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev,
+.owl-theme .owl-controls .owl-buttons .owl-next{
+    color:#5BB12F;
+}
+

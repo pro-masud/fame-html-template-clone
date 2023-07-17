@@ -118,3 +118,21 @@ $(document).ready(function(){
 		navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>']
   });
 });
+
+
+
+// Testimonials Carousel
+
+
+var testimonial = $("#testimonial-carousel");
+
+testimonial.owlCarousel({
+	navigation : true,
+	pagination: true,
+	slideSpeed : 2500,
+	stopOnHover: true,
+	autoPlay: 3000,
+	singleItem: true,
+	transitionStyle : "fade",
+	navigationText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
+});

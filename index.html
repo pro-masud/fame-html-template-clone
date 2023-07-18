@@ -31,12 +31,12 @@
     <link rel="stylesheet" type="text/css" href="./css/color/green.css">
 
     <!-- Colors CSS -->
-    <!-- <link rel="stylesheet" type="text/css" href="./css/color/green.css" title="green"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./css/color/light-red.css" title="light-red"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./css/color/blue.css" title="blug"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./css/color/light-blue.css" title="light-blue"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./css/color/yellow.css" title="yellow"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="./css/color/light-green.css" title="light-green"> -->
+    <link rel="stylesheet" type="text/css" href="./css/color/green.css" title="green"> 
+    <link rel="stylesheet" type="text/css" href="./css/color/blue.css" title="blue">
+    <link rel="stylesheet" type="text/css" href="./css/color/light-red.css" title="light-red">
+    <link rel="stylesheet" type="text/css" href="./css/color/light-blue.css" title="light-blue">
+    <link rel="stylesheet" type="text/css" href="./css/color/yellow.css" title="yellow"> 
+    <link rel="stylesheet" type="text/css" href="./css/color/light-green.css" title="light-green">
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Kaushan+Script" type="text/css">
@@ -65,10 +65,20 @@
     <!-- End Page Loader 
 ==================================================== -->
     
-    <!-- Styleswitcher
+<!-- Styleswitcher
 ==================================================== -->
-
- <!-- End Styleswitcher
+<div class="colors-switcher">
+    <a id="show-panel" class="hide-panel"><i class="fa fa-tint"></i></a>        
+        <ul class="colors-list">
+            <li><a class="light-red" title="Light Red" onClick="setActiveStyleSheet('light-red'); return false;"></a></li>
+            <li><a class="blue" title="Blue" onClick="setActiveStyleSheet('blue'); return false;"></a></li>
+            <li class="no-margin"><a class="light-blue" title="light-blue" onClick="setActiveStyleSheet('light-blue'); return false;"></a></li>
+            <li><a class="green" title="Green"  onClick="setActiveStyleSheet('green'); return false;"></a></li>
+            <li class="no-margin"><a title="light-green" class="light-green" onClick="setActiveStyleSheet('light-green'); return false;"></a></li>
+            <li><a class="yellow" title="Yellow"  onClick="setActiveStyleSheet('yellow'); return false;"></a></li>
+        </ul>
+</div>
+<!-- End Styleswitcher
 ==================================================== -->
 
 
@@ -974,7 +984,7 @@
 
 
 <!-- Start  Latest News Section-->
-<div class="latest-news-section">
+<div class="latest-news-section" id="latest-news">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
